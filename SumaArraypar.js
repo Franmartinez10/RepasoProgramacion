@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var SumCaracteres_1 = require("./SumCaracteres");
+var ImpresoraMensajes_1 = require("./ImpresoraMensajes");
+var arraito1 = ["Casa", "Coche", "Ciudad", "Cesta"];
+var arraito2 = ["Barco", "Baca", "Bicicleta", "Balon", "Bisiesto", "Brasil"];
+var arraito3 = ["Venezuela", "Veneno", "Voltaje"];
+ImpresoraMensajes_1.impresora(SumCaracteres_1.sumCaracteres(arraito1));
+ImpresoraMensajes_1.impresora(SumCaracteres_1.sumCaracteres(arraito2));
+ImpresoraMensajes_1.impresora(SumCaracteres_1.sumCaracteres(arraito3));
