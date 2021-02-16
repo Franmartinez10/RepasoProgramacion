@@ -9,7 +9,7 @@ function sumCaracteres(array:string[]):number
     } return sumNumer;
 } 
 
-// FUNCIÓN ARCOIRIS - TE DEVUELVE SI EL COLOR DEL ARRAY ESTÁ DENTRO DEL ARCOIRIS
+// FUNCIÓN ARCOIRIS *Ver V.2*- TE DEVUELVE SI EL COLOR DEL ARRAY ESTÁ DENTRO DEL ARCOIRIS
 function arcoiris(array:string[])
 { 
     for(let i=0; i<array.length;i++)
@@ -46,6 +46,20 @@ function arcoiris(array:string[])
         {
             console.log("El color " +array[i]+" no está en el arcoiris")
         }
+    }
+    
+} 
+//V.2 **AREGLADA**
+function arcoiris2(array:string[])
+{ 
+    if (array.includes("rojo")||array.includes("naranja")||array.includes("amarillo")||array.includes("verde")||array.includes("azul")||array.includes("indigo")||array.includes("violeta"))
+
+    {
+        console.log("El color está incluido")
+    }
+    else
+    {
+        console.log("El color no está incluido")
     }
     
 } 

@@ -4,14 +4,14 @@ function nombresInclude(array:string[]):boolean
     let i=0;
     while ((i<array.length) && booleano==true)
     {
-        if(array[i][0]==="m")
+        if(array[i][0]!="m")
         {
-           booleano = true 
+           booleano = false 
         } 
-        else 
-        {
-            booleano = false
-        } i++;
+        // else 
+        // {
+        //     booleano = false
+        // } i++;
     } return booleano
 } 
 
@@ -34,8 +34,8 @@ function ArrayPar(array:number[]):boolean
 
 // FUNCIÓN NUM IMPARES - Devuelve todos los numeros impares de un un numero dado
 function numimpares(num:number)
-{   let i=1
-    while(i<=num)
+{   let i=-1
+    while(i<num)
     {
     console.log(i+=2)
     }
